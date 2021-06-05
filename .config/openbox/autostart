@@ -1,0 +1,7 @@
+#feh --bg-fill --randomize /usr/share/Wallpapers/*
+feh --bg-scale ~/.wallpapers/bg_29.jpg&
+plank&
+compton&
+setxkbmap -layout latam&
+polybar -q top -c ~/.config/polybar/cuts/config.ini
+xset r rate 150 150 &
